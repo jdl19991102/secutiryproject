@@ -10,4 +10,17 @@
 
 - [云开发文档](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)
 
-提交提交
+下载 
+
+
+
+```text
+git clone https://github.com/jdl1999102/secutiryproject 
+git pull origin master
+git add xxxx
+git commit -m "cambium"
+git push origin main
+```
+
+
+
