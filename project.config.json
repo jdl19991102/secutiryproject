@@ -9,11 +9,9 @@
     }, {
       "type": "folder",
       "value": "test"
-    }, {
-      "type": "miniprogram_npm",
-      "value": "test"
-    }
-    , {
+    },
+    
+     {
       "type": "folder",
       "value": "node_modules"
     }

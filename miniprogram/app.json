@@ -1,7 +1,6 @@
 {
-  "pages": [
+  "pages": ["pages/market/market",
     "pages/information/information",
-    "pages/market/market",
     "pages/mine/mine"
   ],
   "window": {
