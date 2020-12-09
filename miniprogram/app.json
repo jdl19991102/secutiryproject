@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/information/info",
     "pages/index/index"
   ],
   "window": {
@@ -10,5 +11,10 @@
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json",
-  "style": "v2"
+  "style": "v2",
+  "usingComponents": {
+    "van-row": "@vant/weapp/row/index",
+    "van-col": "@vant/weapp/col/index"
+    
+  }
 }
