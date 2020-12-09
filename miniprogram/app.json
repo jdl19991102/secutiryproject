@@ -1,7 +1,8 @@
 {
   "pages": [
-    "pages/information/info",
-    "pages/index/index"
+    "pages/information/information",
+    "pages/market/market",
+    "pages/mine/mine"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -15,6 +16,29 @@
   "usingComponents": {
     "van-row": "@vant/weapp/row/index",
     "van-col": "@vant/weapp/col/index"
-    
+  },
+  "tabBar": {
+    "color": "#b6b6b6",
+    "selectedColor": "#fe9132",
+    "list": [
+      {
+        "pagePath": "pages/market/market",
+        "text": "首页",
+        "iconPath": "/images/home.png",
+        "selectedIconPath": "/images/home-h.png"
+      },
+      {
+        "pagePath": "pages/information/information",
+        "text": "作品",
+        "iconPath": "/images/list.png",
+        "selectedIconPath": "/images/list-h.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "动态",
+        "iconPath": "/images/user.png",
+        "selectedIconPath": "/images/user-h.png"
+      }
+    ]
   }
 }
