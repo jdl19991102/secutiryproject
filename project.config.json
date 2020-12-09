@@ -1,6 +1,36 @@
 {
   "miniprogramRoot": "miniprogram/",
   "cloudfunctionRoot": "cloudfunctions/",
+  
+  "packOptions": {
+    "ignore": [{
+      "type": "file",
+      "value": "test/test.js"
+    }, {
+      "type": "folder",
+      "value": "test"
+    }, {
+      "type": "miniprogram_npm",
+      "value": "test"
+    }
+    , {
+      "type": "folder",
+      "value": "node_modules"
+    }
+    ,{
+      "type": "suffix",
+      "value": ".webp"
+    }, {
+      "type": "prefix",
+      "value": "test-"
+    }, {
+      "type": "glob",
+      "value": "test/**/*.js"
+    }, {
+      "type": "regexp",
+      "value": "\\.jsx$"
+    }]
+  },
   "setting": {
     "urlCheck": true,
     "es6": true,
@@ -23,7 +53,8 @@
     "useApiHook": true,
     "babelSetting": {
       "ignore": [
-        "miniprogram_npm/*"
+        "./miniprogram/miniprogram_npm/*",
+        "./node_modules/*"
       ],
       "disablePlugins": [],
       "outputPath": ""
