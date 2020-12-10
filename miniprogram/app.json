@@ -22,19 +22,19 @@
     "list": [
       {
         "pagePath": "pages/market/market",
-        "text": "首页",
+        "text": "行情",
         "iconPath": "/images/home.png",
         "selectedIconPath": "/images/home-h.png"
       },
       {
         "pagePath": "pages/information/information",
-        "text": "作品",
+        "text": "资讯",
         "iconPath": "/images/list.png",
         "selectedIconPath": "/images/list-h.png"
       },
       {
         "pagePath": "pages/mine/mine",
-        "text": "动态",
+        "text": "我的",
         "iconPath": "/images/user.png",
         "selectedIconPath": "/images/user-h.png"
       }
