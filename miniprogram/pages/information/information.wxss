@@ -1,7 +1,0 @@
-/* miniprogram/pages/information/info.wxss */
-.box{width:200px;height:200px;background:red;}
-.boxHover{background:yellow;}
-/* 顺序相反不会触发 */
-.item{width: 100px;height: 100px; background: gold;}
-.itemHover{background:honeydew;}
-.rowClass{background: lightblue;}
