@@ -9,11 +9,6 @@
     }, {
       "type": "folder",
       "value": "test"
-    },
-    
-     {
-      "type": "folder",
-      "value": "node_modules"
     }
     ,{
       "type": "suffix",
