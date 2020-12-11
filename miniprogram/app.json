@@ -1,5 +1,6 @@
 {
-  "pages": ["pages/market/market",
+  "pages": [
+    "pages/market/market",
     "pages/information/information",
     "pages/mine/mine"
   ],

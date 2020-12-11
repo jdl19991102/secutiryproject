@@ -1,2 +1,3 @@
 <!--miniprogram/pages/mine/mine.wxml-->
 <text>miniprogram/pages/mine/mine.wxml</text>
+<view><van-image width="100" height="100" src="/images/list.png" /></view>
