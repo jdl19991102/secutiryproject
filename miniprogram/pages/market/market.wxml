@@ -1,2 +1,0 @@
-<!--miniprogram/pages/index/index.wxml-->
-<van-search value="{{ value }}" use-action-slot="true" placeholder="请输入搜索关键词" />

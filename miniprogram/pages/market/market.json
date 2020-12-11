@@ -1,6 +1,0 @@
-{
-  "usingComponents": {
-    "van-search": "@vant/weapp/search/index"
-  },
-  "navigationBarTitleText": "行情"
-}
