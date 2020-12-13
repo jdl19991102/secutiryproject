@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 // miniprogram/pages/index/index.js
 Page({
 

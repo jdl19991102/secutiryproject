@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 {
   "usingComponents": {
     "van-search": "@vant/weapp/search/index",
@@ -9,15 +9,4 @@
     "table": "/components/table/table"
   },
   "navigationBarTitleText": "行情"
-=======
-{
-  "usingComponents": {
-    "van-search": "@vant/weapp/search/index",
-    "van-tab": "@vant/weapp/tab/index",
-    "van-tabs": "@vant/weapp/tabs/index",
-    "van-grid": "@vant/weapp/grid/index",
-    "van-grid-item": "@vant/weapp/grid-item/index"
-  },
-  "navigationBarTitleText": "行情"
->>>>>>> 25e63febdb22c8b3f5a4aeb75408c24081a725ea
 }
