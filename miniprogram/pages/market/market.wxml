@@ -65,43 +65,4 @@
 
 
 
-=======
-<!--miniprogram/pages/index/index.wxml-->
-<view>
-<van-search value="{{ value }}" use-action-slot="true" placeholder="请输入搜索关键词" />
-</view>
 
-<van-tabs active="{{ active }}" >
-  <van-tab title="沪深">
-    <van-grid column-num="3" gutter="{{ 8 }}">
-      <van-grid-item  text="文字"  />
-      <van-grid-item  text="文字" />
-      <van-grid-item  text="文字" />
-    </van-grid>
-  </van-tab>
-  <van-tab title="港股">
-    <van-grid column-num="3" gutter="{{ 8 }}">
-      <van-grid-item  text="文字"  />
-      <van-grid-item  text="文字" />
-      <van-grid-item  text="文字" />
-    </van-grid>
-  </van-tab>
-  <van-tab title="基金">
-    <van-grid column-num="3" gutter="{{ 8 }}">
-      <van-grid-item  text="文字"  />
-      <van-grid-item  text="文字" />
-      <van-grid-item  text="文字" />
-    </van-grid>
-  </van-tab>
-</van-tabs>
-<view>
-    <p>股票</p>
-    <p>最新</p>
-    <p>涨幅</p>
-</view>
-
-
-
-
-
->>>>>>> 25e63febdb22c8b3f5a4aeb75408c24081a725ea
