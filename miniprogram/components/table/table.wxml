@@ -1,0 +1,31 @@
+<!--components/table/table.wxml-->
+<view class='container'>
+    <view class="tab-header">
+      <view class="tab-header-td"
+          wx:for="{{tabHDate}}"
+          wx:key="index"
+          style="width:{{tabW[index]}}rpx"
+      >
+          {{item}}
+      </view>
+    </view>
+    <view >
+      <view class="tab-row"
+          wx:for="{{rowData}}"
+          wx:key="index"
+      >
+        <view 
+            class="tab-row-td"
+            wx:for="{{rowKey}}"
+            wx:key="idx"
+            wx:for-index="idx"
+            wx:for-item="row"
+            style="width:{{tabW[idx]}}rpx"
+        >
+          <view>{{item[row]}}</view>
+        </view>
+      </view>
+      <view wx:if="{{rowData.length===0}}" class="no-text">暂无内容</view>
+    </view>
+    
+</view>

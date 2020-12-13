@@ -5,15 +5,38 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    active: 1,
+    tabHDate: ['股票', '最新', '涨幅'], // 标题内容
+    tabW: ['230', '230', '230'],
+    rowKey: ['time', 'enterTime', 'outTime'],
+    rowData: [{
+        time: '2020',
+        enterTime: ' 20 10:00',
+        outTime: ' 20 10:00',
+        
+      },
+      {
+        time: ' 02.20',
+        enterTime: ' 20 10:00',
+        outTime: ' 20 10:00',
+        
+      },
+      {
+        time: ' 02.20',
+        enterTime: '20 10:00',
+        outTime: ' 20 10:00',
+       
+      }
+    ],
   },
-
+  
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+        console.log(1)
+    },
 
-  },
 
   /**
    * 生命周期函数--监听页面初次渲染完成

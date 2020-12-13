@@ -1,0 +1,45 @@
+/* components/table/table.wxss */
+.container {
+  height: 20rpx;
+  padding: 0 20rpx;
+} 
+.tab-header,.tab-row{
+  width: 100%;
+  height: 94rpx;
+  display: flex;
+  align-items: center;
+  background: #DEF1FF;
+  
+}
+.tab-header-td,.tab-row-td{
+  height: 100%;
+  border-right: 1rpx solid #FFFFFF;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+  
+}
+.tab-header-td:last-child,.tab-row-td:last-child{
+  border-right: none;
+}
+.tab-row{
+  background: #fff;
+  
+}
+.tab-row:nth-child(2n){
+  background: #EDEDED;
+}
+.tab-row-td view{
+     display: -webkit-box;
+     -webkit-box-orient: vertical;
+     -webkit-line-clamp: 2;
+     overflow: hidden;
+}
+.no-text{
+  text-align: center;
+  font-size: 28rpx;
+  color: #999;
+  margin-top: 20rpx;
+}

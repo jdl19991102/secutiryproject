@@ -1,1 +1,28 @@
 /* miniprogram/pages/index/index.wxss */
+.content {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rpx;
+  margin-bottom: 75rpx;
+  margin-left: 70rpx;
+}
+ 
+.t1{
+  height: 30px;
+  width: 80px;
+  background-color: red;
+  margin-left: 1rpx;
+}
+ 
+.t2{
+  height: 30px;
+  width: 70px;
+  background-color: grey;
+  margin-left: 60rpx;
+}
+.t3{
+  height: 30px;
+  width: 80px;
+  background-color:blue;
+  margin-left: 50rpx;
+}

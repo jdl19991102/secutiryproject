@@ -1,2 +1,66 @@
 <!--miniprogram/pages/index/index.wxml-->
+<view>
 <van-search value="{{ value }}" use-action-slot="true" placeholder="请输入搜索关键词" />
+</view>
+
+<van-tabs active="{{ active }}" >
+  <van-tab title="沪深">
+    <view class="content">
+        <view class="t1">上证指数  3347.19  22</view>
+        <view class="t2">深圳成指  1355.14  22</view>
+        <view class="t3">创业板指  2687.78  22</view>
+      </view>
+  </van-tab>
+
+  <van-tab title="港股">
+      <view class="content">
+        <view class="t1">
+        <text>恒生指数</text>
+        <view>20655.2</view>
+        <text>22</text>
+        </view>
+        <view class="t2">
+          <text>恒生指数</text>
+          <view>20655.2</view>
+          <text>22</text>
+        </view>
+        <view class="t3">
+           <text>红筹指数</text>
+          <view>21000.2</view>
+          <text>22</text>
+        </view>
+      </view>
+  </van-tab>
+  <van-tab title="基金">
+     <view class="content">
+        <view class="t1">
+          <text>半导体</text>
+          <view>45.2</view>
+          <text>18</text>
+        </view>
+        <view class="t2">
+          <text>新生医疗</text>
+          <view>38.2</view>
+          <text>22</text>
+        </view>
+        <view class="t3">
+          <text>茅台</text>
+          <view>2500.6</view>
+          <text>12</text>
+        </view>
+      </view>
+  </van-tab>
+</van-tabs>
+<table
+ tabHDate="{{tabHDate}}"
+ tabW="{{tabW}}"
+ rowData="{{rowData}}"
+ rowKey="{{rowKey}}"
+/>
+
+
+
+
+
+
+
