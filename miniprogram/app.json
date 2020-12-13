@@ -1,7 +1,8 @@
 {
-  "pages": [
+  "pages": [ 
+     "pages/information/information",
     "pages/market/market",
-    "pages/information/information",
+  
     "pages/mine/mine"
   ],
   "window": {
@@ -15,7 +16,8 @@
   "style": "v2",
   "usingComponents": {
     "van-row": "@vant/weapp/row/index",
-    "van-col": "@vant/weapp/col/index"
+    "van-col": "@vant/weapp/col/index",
+    "van-image": "@vant/weapp/image/index"
   },
   "tabBar": {
     "color": "#b6b6b6",
