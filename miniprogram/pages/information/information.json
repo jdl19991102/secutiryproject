@@ -1,4 +1,7 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "footer":"/components/footer/footer",
+    "pubtitle":"/components/pubTitle/pubtitle"
+  },
   "navigationBarTitleText": "咨询"
 }

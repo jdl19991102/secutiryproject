@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .container{
   padding:0 26rpx;
   box-sizing: border-box;
@@ -5,4 +6,15 @@
 @keyframes dh{
   0%,50%,100%{opacity: 1;}
   25%{opacity: 0;}
+=======
+/**app.wxss**/
+
+.container{
+  padding:0 26rpx;
+  box-sizing: border-box;
+}
+@keyframes dh{
+  0%,50%,100%{opacity: 1;}
+  25%{opacity: 0;}
+>>>>>>> 25e63febdb22c8b3f5a4aeb75408c24081a725ea
 }

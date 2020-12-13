@@ -1,11 +1,25 @@
 <!--miniprogram/pages/information/info.wxml-->
 
-<view class="box" hover-class="boxHover" hover-start-time="50" hover-stay-time="50" >资讯
-  <view class="item" hover-class="itemHover" hover-stop-propagation>111</view>
+
+<view class="dynamic">
+<view class="container">
+<pubtitle myTitle="资讯" myUrl="/pages/dynamic/dynamic"/>
+
+   <view class="dyMain" wx:for="{{dataList}}" wx:key="*this">
+    <navigator class="dyItem">
+   
+      <view class="txt">
+      <view class="title">
+        {{item.title}}
+      </view>
+      <view class="info">作者：{{item.author}} - 时间：2020-07-05 </view>
+      </view>
+       <view class="pic">
+      <image class="" src="{{item.picurl}}"></image>
+    </view>
+    </navigator>
+   </view>
 </view>
-<van-row custom-class="rowClass">
-  <van-col span="8">span: 8</van-col>
-  <van-col span="8">span: 8</van-col>
-  <van-col span="8">span: 8</van-col>
-</van-row>
-<vant-button></vant-button>
+</view>
+
+<footer/>

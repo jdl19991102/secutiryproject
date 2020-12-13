@@ -1,7 +1,32 @@
-/* miniprogram/pages/information/info.wxss */
-.box{width:200px;height:200px;background:red;}
-.boxHover{background:yellow;}
-/* 顺序相反不会触发 */
-.item{width: 100px;height: 100px; background: gold;}
-.itemHover{background:honeydew;}
-.rowClass{background: lightblue;}
+
+  .dynamic{
+    padding: 90rpx,0,70rpx;
+  }
+  .dyItem{
+    display: flex;
+    padding: 15rpx 0 ;
+    border:1rpx dashed #f4f4f4; 
+    justify-content: space-between;
+  }
+  .dyItem .pic{
+    width: 230rpx;
+    height: 150rpx;
+  }
+  .dyItem .pic image{
+    width: 100%;
+    height: 100%;
+  }
+  .dyItem .txt{
+    width: 440rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .dyItem .title{
+    font-size: 34rpx;
+  }
+  .dyItem .info{
+    font-size: 26rpx;
+    color: #888;
+  }
+  

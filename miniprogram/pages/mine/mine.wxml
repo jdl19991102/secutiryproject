@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 <!--miniprogram/pages/mine/mine.wxml-->
 <text>miniprogram/pages/mine/mine.wxml</text>
 <view><van-image width="100" height="100" src="/images/list.png" /></view>
+=======
+<!--miniprogram/pages/mine/mine.wxml-->
+<text>miniprogram/pages/mine/mine.wxml</text>
+<view><van-image width="100" height="100" src="/images/list.png" /></view>
+>>>>>>> 25e63febdb22c8b3f5a4aeb75408c24081a725ea
