@@ -1,32 +1,122 @@
-
-  .dynamic{
-    padding: 90rpx,0,70rpx;
-  }
-  .dyItem{
-    display: flex;
-    padding: 15rpx 0 ;
-    border:1rpx dashed #f4f4f4; 
-    justify-content: space-between;
-  }
-  .dyItem .pic{
-    width: 230rpx;
-    height: 150rpx;
-  }
-  .dyItem .pic image{
-    width: 100%;
+/**index.wxss**/
+pages,
+.page,
+.page__bd{
     height: 100%;
-  }
-  .dyItem .txt{
-    width: 440rpx;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  .dyItem .title{
-    font-size: 34rpx;
-  }
-  .dyItem .info{
-    font-size: 26rpx;
-    color: #888;
-  }
-  
+}
+.page__bd{
+    padding-bottom: 0;
+}
+
+/**导航栏**/
+.weui-tab__content{
+    padding-top: 60px;
+    text-align: center;
+}
+.weui-navbar__slider {
+  width: 42px;
+}
+.navar-fixed-to-top {
+  /**iOS 上完美锁定了 navbar 但安卓上无法锁定**/
+  position: fixed;
+  top: 0rpx;
+}
+.navbar-background-color {
+  background-color: rgb(212, 94, 83);
+}
+.navbar-text-color {
+  color: white;
+}
+.navbar-slider-color {
+  background-color: white;
+}
+
+/**分页新闻头条**/
+.weui-tab-content-padding {
+  padding-top: 20rpx; 
+}
+.front-page-edge {
+  margin: 20rpx;
+}
+.front-page-content {
+  height: 300rpx;
+  padding: 15rpx 0rpx;
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+}
+.front-page-title-font {
+  padding-left: 15rpx;
+  padding-right: 15rpx;
+  padding-top: 15rpx;
+  color: #EFEFEF;
+  font-size: 27rpx;
+  line-height: 1.1rem;
+}
+.front-page-subtitle-font {
+  margin-top: 5rpx;
+  padding-left: 15rpx;
+  padding-right: 15rpx;
+  padding-bottom: 15rpx;
+  color: ghostwhite;
+  opacity: 0.9;
+  font-size: 24rpx;
+  line-height: 1.1rem;
+}
+.front-page-text-wrapper {
+  position: absolute;
+  bottom: 0rpx;
+  width: 100%;
+  background: rgba(0,0,0,0.5);
+
+}
+
+/**分页新闻列表**/
+.page-background {
+  background-color: #ffffff;
+}
+.text-align_left {
+  text-align: left;
+}
+.weui-media-box__hd_in-appmsg_image {
+  height: 120rpx;
+  width: 160rpx;
+  margin-left: 20rpx; 
+}
+.news-list-title-text-font {
+  color: #888888;
+  font-size: 27rpx;
+  line-height: 1.1rem;
+}
+.news-list-subtitle-text-font {
+  color: #cecece;
+  font-size: 24rpx;
+  line-height: 1.1rem;
+  margin-top: 5rpx;
+  padding-bottom: 0rpx;
+}
+
+/**去掉 weui-panel 中讨厌的 border **/
+.my-weui-panel{
+  background-color:#FAFAFA;
+  margin-top:10px;
+  position:relative;
+  overflow:hidden;
+}
+.my-weui-panel:first-child{
+  margin-top:0;
+}
+.my-weui-panel:before{
+  top:0;
+}
+.my-weui-panel:after, .my-weui-panel:before{
+  content:" ";
+  position:absolute;
+  left:0;
+  right:0;
+  height:1px;
+  color:#e5e5e5;
+}
+.my-weui-panel:after{
+  bottom:0;
+}

@@ -1,25 +1,66 @@
-<!--miniprogram/pages/information/info.wxml-->
+<!--index.wxml-->
+<view class="page">
+  <view class="page__bd">
+
+    <van-tabs type="card" animated bind:change="tabClick">
+      <block wx:for="{{tabs}}" wx:key="*this">
+        <van-tab title="{{item}}">
+          <view class="weui-tab__panel">
+        <block wx:for="{{newsList}}" wx:for-item="newsTypeItem" wx:key="typeID">
+          
+          <view class="weui-tab__content weui-tab-content-padding" hidden="{{activeIndex != index}}">
+            <!-- 视频 -->
+            <view class="my-weui-panel text-align_left front-page-edge">
+              <view class="weui-panel__bd">
+                <view class="weui-media-box weui-media-box_text front-page-content" style='background-image: url("{{newsTypeItem.frontPage.imagePath}}");'>
+
+                  <view class='front-page-text-wrapper'>
+                    <view class="weui-media-box__desc front-page-title-font" data-id="{{-1}}" bindtap='tabToNavigate'>
+                      {{newsTypeItem.frontPage.title}}
+                    </view>
+                    <view class="weui-media-box__info front-page-subtitle-font">
+                      <view class="weui-media-box__info__meta">{{newsTypeItem.frontPage.source}}</view>
+                      <view class="weui-media-box__info__meta">{{newsTypeItem.frontPage.date}}</view>
+                    </view>
+                  </view>
+
+                </view>
+              </view>
+            </view>
+            <!-- 新闻 -->
+            <view wx:for="{{newsTypeItem.newsInfo}}" wx:key="id" class='text-align_left'>
+              <view class="my-weui-panel">
+                <view class="weui-panel__bd">
+                
+                  <view class="weui-media-box weui-media-box_appmsg">
+                    <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+                      <view class="weui-media-box__desc news-list-title-text-font" data-id="{{index}}" bindtap='tabToNavigate'>{{item.title}}</view>
+                      <view class="weui-media-box__info news-list-subtitle-text-font">
+                        <view class="weui-media-box__info__meta">{{item.source}}</view>
+                        <view class="weui-media-box__info__meta">{{item.date}}</view>
+                      </view>
+                    </view>
+                    <view class="weui-media-box__hd weui-media-box__hd_in-appmsg weui-media-box__hd_in-appmsg_image">
+                      <image class="weui-media-box__thumb" src="{{item.imagePath}}" data-id="{{index}}" bindtap='tabToNavigate'/>
+                    </view>
+                  </view>
+                  <!--  -->
+                </view>
+              </view>
+            </view>
 
 
-<view class="dynamic">
-<view class="container">
-<pubtitle myTitle="资讯" myUrl="/pages/dynamic/dynamic"/>
 
-   <view class="dyMain" wx:for="{{dataList}}" wx:key="*this">
-    <navigator class="dyItem">
-   
-      <view class="txt">
-      <view class="title">
-        {{item.title}}
+
+            <!--  -->
+          </view>
+        </block>
       </view>
-      <view class="info">作者：{{item.author}} - 时间：2020-07-05 </view>
-      </view>
-       <view class="pic">
-      <image class="" src="{{item.picurl}}"></image>
-    </view>
-    </navigator>
-   </view>
-</view>
-</view>
+        </van-tab>
+      </block>
 
-<footer/>
+    </van-tabs>
+
+
+  </view>
+</view>

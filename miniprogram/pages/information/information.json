@@ -1,7 +1,8 @@
 {
+  "enablePullDownRefresh": true,
   "usingComponents": {
-    "footer":"/components/footer/footer",
-    "pubtitle":"/components/pubTitle/pubtitle"
-  },
-  "navigationBarTitleText": "咨询"
+    "van-tab": "@vant/weapp/tab/index",
+    "van-tabs": "@vant/weapp/tabs/index",
+    "van-panel": "@vant/weapp/panel/index"
+  }
 }

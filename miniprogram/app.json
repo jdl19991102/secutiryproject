@@ -1,9 +1,8 @@
 {
-  "pages": [
-    "pages/market/market",
-    "pages/information/information",
+  "pages": [  "pages/information/information","pages/market/market",
+   
+   
     "pages/mine/mine"
-  
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -16,7 +15,9 @@
   "style": "v2",
   "usingComponents": {
     "van-row": "@vant/weapp/row/index",
-    "van-col": "@vant/weapp/col/index"
+    "van-col": "@vant/weapp/col/index",
+    "van-tabbar": "@vant/weapp/tabbar/index",
+  "van-tabbar-item": "@vant/weapp/tabbar-item/index"
   },
   "tabBar": {
     "color": "#b6b6b6",
