@@ -13,11 +13,11 @@ class HTTP {
     fail = () => {}
   }) {
     return new Promise((resolve, reject) => {
-      this._request(url, data, header, method,resolve,reject);
+      this._request(url, data, header, method, resolve, reject);
     })
   }
 
-  _request(url, data, header, method,resolve,reject) {
+  _request(url, data, header, method, resolve, reject) {
     let that = this;
     wx.request({
       url: base_url + url,
@@ -49,6 +49,4 @@ class HTTP {
     })
   }
 }
-export  {
-  HTTP
-}
+export default new HTTP

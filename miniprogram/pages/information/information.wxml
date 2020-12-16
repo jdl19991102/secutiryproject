@@ -5,12 +5,12 @@
     <van-tabs type="card" animated bind:change="tabClick">
       <block wx:for="{{tabs}}" wx:key="*this">
         <van-tab title="{{item}}">
-          <view class="weui-tab__panel">
+          <van-panel >
         <block wx:for="{{newsList}}" wx:for-item="newsTypeItem" wx:key="typeID">
           
           <view class="weui-tab__content weui-tab-content-padding" hidden="{{activeIndex != index}}">
             <!-- 视频 -->
-            <view class="my-weui-panel text-align_left front-page-edge">
+             <view class="my-weui-panel text-align_left front-page-edge">
               <view class="weui-panel__bd">
                 <view class="weui-media-box weui-media-box_text front-page-content" style='background-image: url("{{newsTypeItem.frontPage.imagePath}}");'>
 
@@ -26,7 +26,7 @@
 
                 </view>
               </view>
-            </view>
+            </view> 
             <!-- 新闻 -->
             <view wx:for="{{newsTypeItem.newsInfo}}" wx:key="id" class='text-align_left'>
               <view class="my-weui-panel">
@@ -41,6 +41,7 @@
                       </view>
                     </view>
                     <view class="weui-media-box__hd weui-media-box__hd_in-appmsg weui-media-box__hd_in-appmsg_image">
+                     
                       <image class="weui-media-box__thumb" src="{{item.imagePath}}" data-id="{{index}}" bindtap='tabToNavigate'/>
                     </view>
                   </view>
@@ -55,12 +56,12 @@
             <!--  -->
           </view>
         </block>
-      </view>
+      </van-panel>
         </van-tab>
       </block>
 
     </van-tabs>
-
+ 
 
   </view>
 </view>
