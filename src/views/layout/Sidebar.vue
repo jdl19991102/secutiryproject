@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!--
  * @Author: your name
  * @Date: 2020-12-08 15:42:07
@@ -6,6 +7,8 @@
  * @Description: In User Settings Edit
  * @FilePath: \vue-element-admin\src\views\layout\Sidebar.vue
 -->
+=======
+>>>>>>> 82538a700f39e8595d8ad2a3d2e77253d526449e
 <template>
 	<el-menu mode="vertical" theme="dark" :default-active="$route.path">
 		<sidebar-item :routes='permission_routers'></sidebar-item>
