@@ -1,11 +1,5 @@
 # vue-element-admin #
-<<<<<<< HEAD
-
-http://localhost:9527/
-
-=======
->>>>>>> 82538a700f39e8595d8ad2a3d2e77253d526449e
-[线上地址](http://panjiachen.github.io/vue-element-admin)
+http://panjiachen.github.io/vue-element-admin)
 
 [English Document](https://github.com/PanJiaChen/vue-element-admin/blob/master/README-en.md)
 
@@ -190,7 +184,3 @@ Detailed changes for each release are documented in the [release notes](https://
 
 
 ## [更多demo](http://panjiachen.github.io/vue-element-admin)
-<<<<<<< HEAD
-=======
-# new branch
->>>>>>> 82538a700f39e8595d8ad2a3d2e77253d526449e
