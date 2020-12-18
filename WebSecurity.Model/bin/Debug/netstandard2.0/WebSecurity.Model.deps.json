@@ -1,0 +1,153 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "WebSecurity.Model/1.0.0": {
+        "dependencies": {
+          "Dapper": "2.0.78",
+          "Dapper.Contrib": "2.0.78",
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "WebSecurity.Model.dll": {}
+        }
+      },
+      "Dapper/2.0.78": {
+        "dependencies": {
+          "System.Reflection.Emit.Lightweight": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dapper.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.78.45418"
+          }
+        }
+      },
+      "Dapper.Contrib/2.0.78": {
+        "dependencies": {
+          "Dapper": "2.0.78",
+          "Microsoft.CSharp": "4.7.0",
+          "System.Reflection.Emit": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dapper.Contrib.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.78.45418"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.CSharp.dll": {
+            "assemblyVersion": "4.0.5.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "System.Reflection.Emit/4.7.0": {
+        "dependencies": {
+          "System.Reflection.Emit.ILGeneration": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Reflection.Emit.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        }
+      },
+      "System.Reflection.Emit.ILGeneration/4.7.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Reflection.Emit.ILGeneration.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        }
+      },
+      "System.Reflection.Emit.Lightweight/4.7.0": {
+        "dependencies": {
+          "System.Reflection.Emit.ILGeneration": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Reflection.Emit.Lightweight.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WebSecurity.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Dapper/2.0.78": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vLPwL2HZXp/DN17Eu7sg6GMEj02alq7jcy6atn5Gv8i96b9Hu1UoxlCrhInUPfSFLQQiD8O7pdWAE1fdUEO/1Q==",
+      "path": "dapper/2.0.78",
+      "hashPath": "dapper.2.0.78.nupkg.sha512"
+    },
+    "Dapper.Contrib/2.0.78": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sUfDVIf8LlHNiz3MfUFodeyRiemfN1JFkPxYjCxFWlwNPg1iQ49mB+0E89TkywWs4X8fiRWOVDQgtH5FtzK5Kw==",
+      "path": "dapper.contrib/2.0.78",
+      "hashPath": "dapper.contrib.2.0.78.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "System.Reflection.Emit/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VR4kk8XLKebQ4MZuKuIni/7oh+QGFmZW3qORd1GvBq/8026OpW501SzT/oypwiQl4TvT8ErnReh/NzY9u+C6wQ==",
+      "path": "system.reflection.emit/4.7.0",
+      "hashPath": "system.reflection.emit.4.7.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit.ILGeneration/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AucBYo3DSI0IDxdUjKksBcQJXPHyoPyrCXYURW1WDsLI4M65Ar/goSHjdnHOAY9MiYDNKqDlIgaYm+zL2hA1KA==",
+      "path": "system.reflection.emit.ilgeneration/4.7.0",
+      "hashPath": "system.reflection.emit.ilgeneration.4.7.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit.Lightweight/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a4OLB4IITxAXJeV74MDx49Oq2+PsF6Sml54XAFv+2RyWwtDBcabzoxiiJRhdhx+gaohLh4hEGCLQyBozXoQPqA==",
+      "path": "system.reflection.emit.lightweight/4.7.0",
+      "hashPath": "system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
+    }
+  }
+}

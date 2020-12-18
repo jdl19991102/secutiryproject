@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.78" />
+    <PackageReference Include="Dapper.Contrib" Version="2.0.78" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="5.0.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+    <PackageReference Include="Z.Dapper.Plus" Version="3.0.27" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebSecurity.Interface\WebSecurity.Interface.csproj" />
+  </ItemGroup>
+
+</Project>

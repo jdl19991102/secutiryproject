@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile></DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.78" />
+    <PackageReference Include="Dapper.Contrib" Version="2.0.78" />
+    <PackageReference Include="Z.Dapper.Plus" Version="3.0.27" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebSecurity.Interface\WebSecurity.Interface.csproj" />
+    <ProjectReference Include="..\WebSecurity.Model\WebSecurity.Model.csproj" />
+    <ProjectReference Include="..\WebSecurity.Service\WebSecurity.Service.csproj" />
+  </ItemGroup>
+
+
+</Project>

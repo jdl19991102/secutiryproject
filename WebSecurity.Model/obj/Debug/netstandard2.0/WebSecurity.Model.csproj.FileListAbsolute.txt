@@ -1,0 +1,9 @@
+H:\WebSecurityCore\WebSecurity\WebSecurity.Model\obj\Debug\netstandard2.0\WebSecurity.Model.AssemblyInfoInputs.cache
+H:\WebSecurityCore\WebSecurity\WebSecurity.Model\obj\Debug\netstandard2.0\WebSecurity.Model.AssemblyInfo.cs
+H:\WebSecurityCore\WebSecurity\WebSecurity.Model\obj\Debug\netstandard2.0\WebSecurity.Model.csproj.CoreCompileInputs.cache
+H:\WebSecurityCore\WebSecurity\WebSecurity.Model\bin\Debug\netstandard2.0\WebSecurity.Model.deps.json
+H:\WebSecurityCore\WebSecurity\WebSecurity.Model\bin\Debug\netstandard2.0\WebSecurity.Model.dll
+H:\WebSecurityCore\WebSecurity\WebSecurity.Model\bin\Debug\netstandard2.0\WebSecurity.Model.pdb
+H:\WebSecurityCore\WebSecurity\WebSecurity.Model\obj\Debug\netstandard2.0\WebSecurity.Model.dll
+H:\WebSecurityCore\WebSecurity\WebSecurity.Model\obj\Debug\netstandard2.0\WebSecurity.Model.pdb
+H:\WebSecurityCore\WebSecurity\WebSecurity.Model\obj\Debug\netstandard2.0\WebSecurity.Model.csprojAssemblyReference.cache

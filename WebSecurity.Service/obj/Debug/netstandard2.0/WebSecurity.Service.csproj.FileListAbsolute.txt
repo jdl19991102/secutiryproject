@@ -1,0 +1,12 @@
+H:\WebSecurityCore\WebSecurity\WebSecurity.Service\bin\Debug\netstandard2.0\WebSecurity.Interface.dll
+H:\WebSecurityCore\WebSecurity\WebSecurity.Service\obj\Debug\netstandard2.0\WebSecurity.Service.csprojAssemblyReference.cache
+H:\WebSecurityCore\WebSecurity\WebSecurity.Service\obj\Debug\netstandard2.0\WebSecurity.Service.AssemblyInfoInputs.cache
+H:\WebSecurityCore\WebSecurity\WebSecurity.Service\obj\Debug\netstandard2.0\WebSecurity.Service.AssemblyInfo.cs
+H:\WebSecurityCore\WebSecurity\WebSecurity.Service\obj\Debug\netstandard2.0\WebSecurity.Service.csproj.CoreCompileInputs.cache
+H:\WebSecurityCore\WebSecurity\WebSecurity.Service\bin\Debug\netstandard2.0\WebSecurity.Service.deps.json
+H:\WebSecurityCore\WebSecurity\WebSecurity.Service\bin\Debug\netstandard2.0\WebSecurity.Service.dll
+H:\WebSecurityCore\WebSecurity\WebSecurity.Service\bin\Debug\netstandard2.0\WebSecurity.Service.pdb
+H:\WebSecurityCore\WebSecurity\WebSecurity.Service\bin\Debug\netstandard2.0\WebSecurity.Interface.pdb
+H:\WebSecurityCore\WebSecurity\WebSecurity.Service\obj\Debug\netstandard2.0\WebSecurity.Service.csproj.CopyComplete
+H:\WebSecurityCore\WebSecurity\WebSecurity.Service\obj\Debug\netstandard2.0\WebSecurity.Service.dll
+H:\WebSecurityCore\WebSecurity\WebSecurity.Service\obj\Debug\netstandard2.0\WebSecurity.Service.pdb

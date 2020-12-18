@@ -1,0 +1,17 @@
+H:\WebSecurityCore\WebSecurity\WebSecurity.Interface\bin\Debug\netstandard2.1\WebSecurity.Interface.deps.json
+H:\WebSecurityCore\WebSecurity\WebSecurity.Interface\bin\Debug\netstandard2.1\WebSecurity.Interface.dll
+H:\WebSecurityCore\WebSecurity\WebSecurity.Interface\bin\Debug\netstandard2.1\WebSecurity.Interface.pdb
+H:\WebSecurityCore\WebSecurity\WebSecurity.Interface\obj\Debug\netstandard2.1\WebSecurity.Interface.AssemblyInfoInputs.cache
+H:\WebSecurityCore\WebSecurity\WebSecurity.Interface\obj\Debug\netstandard2.1\WebSecurity.Interface.AssemblyInfo.cs
+H:\WebSecurityCore\WebSecurity\WebSecurity.Interface\obj\Debug\netstandard2.1\WebSecurity.Interface.csproj.CoreCompileInputs.cache
+H:\WebSecurityCore\WebSecurity\WebSecurity.Interface\obj\Debug\netstandard2.1\WebSecurity.Interface.dll
+H:\WebSecurityCore\WebSecurity\WebSecurity.Interface\obj\Debug\netstandard2.1\WebSecurity.Interface.pdb
+H:\WebSecurityCore\WebSecurity\WebSecurity.Interface\obj\Debug\netstandard2.1\WebSecurity.Interface.csprojAssemblyReference.cache
+C:\Users\jdl19991102\Desktop\实训内容\微信小程序\SecurityProjectApi\WebSecurity.Interface\bin\Debug\netstandard2.1\WebSecurity.Interface.deps.json
+C:\Users\jdl19991102\Desktop\实训内容\微信小程序\SecurityProjectApi\WebSecurity.Interface\bin\Debug\netstandard2.1\WebSecurity.Interface.dll
+C:\Users\jdl19991102\Desktop\实训内容\微信小程序\SecurityProjectApi\WebSecurity.Interface\bin\Debug\netstandard2.1\WebSecurity.Interface.pdb
+C:\Users\jdl19991102\Desktop\实训内容\微信小程序\SecurityProjectApi\WebSecurity.Interface\obj\Debug\netstandard2.1\WebSecurity.Interface.AssemblyInfoInputs.cache
+C:\Users\jdl19991102\Desktop\实训内容\微信小程序\SecurityProjectApi\WebSecurity.Interface\obj\Debug\netstandard2.1\WebSecurity.Interface.AssemblyInfo.cs
+C:\Users\jdl19991102\Desktop\实训内容\微信小程序\SecurityProjectApi\WebSecurity.Interface\obj\Debug\netstandard2.1\WebSecurity.Interface.dll
+C:\Users\jdl19991102\Desktop\实训内容\微信小程序\SecurityProjectApi\WebSecurity.Interface\obj\Debug\netstandard2.1\WebSecurity.Interface.pdb
+C:\Users\jdl19991102\Desktop\实训内容\微信小程序\SecurityProjectApi\WebSecurity.Interface\obj\Debug\netstandard2.1\WebSecurity.Interface.csproj.CoreCompileInputs.cache

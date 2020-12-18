@@ -1,0 +1,313 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\jdl19991102\\Desktop\\实训内容\\微信小程序\\SecurityProjectApi\\WebSecurity\\WebSecurity.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\jdl19991102\\Desktop\\实训内容\\微信小程序\\SecurityProjectApi\\WebSecurity.Interface\\WebSecurity.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jdl19991102\\Desktop\\实训内容\\微信小程序\\SecurityProjectApi\\WebSecurity.Interface\\WebSecurity.Interface.csproj",
+        "projectName": "WebSecurity.Interface",
+        "projectPath": "C:\\Users\\jdl19991102\\Desktop\\实训内容\\微信小程序\\SecurityProjectApi\\WebSecurity.Interface\\WebSecurity.Interface.csproj",
+        "packagesPath": "C:\\Users\\jdl19991102\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jdl19991102\\Desktop\\实训内容\\微信小程序\\SecurityProjectApi\\WebSecurity.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jdl19991102\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "Dapper.Contrib": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Z.Dapper.Plus": {
+              "target": "Package",
+              "version": "[3.0.27, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jdl19991102\\Desktop\\实训内容\\微信小程序\\SecurityProjectApi\\WebSecurity.Model\\WebSecurity.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jdl19991102\\Desktop\\实训内容\\微信小程序\\SecurityProjectApi\\WebSecurity.Model\\WebSecurity.Model.csproj",
+        "projectName": "WebSecurity.Model",
+        "projectPath": "C:\\Users\\jdl19991102\\Desktop\\实训内容\\微信小程序\\SecurityProjectApi\\WebSecurity.Model\\WebSecurity.Model.csproj",
+        "packagesPath": "C:\\Users\\jdl19991102\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jdl19991102\\Desktop\\实训内容\\微信小程序\\SecurityProjectApi\\WebSecurity.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jdl19991102\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "Dapper.Contrib": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "Z.Dapper.Plus": {
+              "target": "Package",
+              "version": "[3.0.27, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jdl19991102\\Desktop\\实训内容\\微信小程序\\SecurityProjectApi\\WebSecurity.Service\\WebSecurity.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jdl19991102\\Desktop\\实训内容\\微信小程序\\SecurityProjectApi\\WebSecurity.Service\\WebSecurity.Service.csproj",
+        "projectName": "WebSecurity.Service",
+        "projectPath": "C:\\Users\\jdl19991102\\Desktop\\实训内容\\微信小程序\\SecurityProjectApi\\WebSecurity.Service\\WebSecurity.Service.csproj",
+        "packagesPath": "C:\\Users\\jdl19991102\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jdl19991102\\Desktop\\实训内容\\微信小程序\\SecurityProjectApi\\WebSecurity.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jdl19991102\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "C:\\Users\\jdl19991102\\Desktop\\实训内容\\微信小程序\\SecurityProjectApi\\WebSecurity.Interface\\WebSecurity.Interface.csproj": {
+                "projectPath": "C:\\Users\\jdl19991102\\Desktop\\实训内容\\微信小程序\\SecurityProjectApi\\WebSecurity.Interface\\WebSecurity.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "Dapper.Contrib": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            },
+            "Z.Dapper.Plus": {
+              "target": "Package",
+              "version": "[3.0.27, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jdl19991102\\Desktop\\实训内容\\微信小程序\\SecurityProjectApi\\WebSecurity\\WebSecurity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jdl19991102\\Desktop\\实训内容\\微信小程序\\SecurityProjectApi\\WebSecurity\\WebSecurity.csproj",
+        "projectName": "WebSecurity",
+        "projectPath": "C:\\Users\\jdl19991102\\Desktop\\实训内容\\微信小程序\\SecurityProjectApi\\WebSecurity\\WebSecurity.csproj",
+        "packagesPath": "C:\\Users\\jdl19991102\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jdl19991102\\Desktop\\实训内容\\微信小程序\\SecurityProjectApi\\WebSecurity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jdl19991102\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\jdl19991102\\Desktop\\实训内容\\微信小程序\\SecurityProjectApi\\WebSecurity.Interface\\WebSecurity.Interface.csproj": {
+                "projectPath": "C:\\Users\\jdl19991102\\Desktop\\实训内容\\微信小程序\\SecurityProjectApi\\WebSecurity.Interface\\WebSecurity.Interface.csproj"
+              },
+              "C:\\Users\\jdl19991102\\Desktop\\实训内容\\微信小程序\\SecurityProjectApi\\WebSecurity.Model\\WebSecurity.Model.csproj": {
+                "projectPath": "C:\\Users\\jdl19991102\\Desktop\\实训内容\\微信小程序\\SecurityProjectApi\\WebSecurity.Model\\WebSecurity.Model.csproj"
+              },
+              "C:\\Users\\jdl19991102\\Desktop\\实训内容\\微信小程序\\SecurityProjectApi\\WebSecurity.Service\\WebSecurity.Service.csproj": {
+                "projectPath": "C:\\Users\\jdl19991102\\Desktop\\实训内容\\微信小程序\\SecurityProjectApi\\WebSecurity.Service\\WebSecurity.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "Dapper.Contrib": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "Z.Dapper.Plus": {
+              "target": "Package",
+              "version": "[3.0.27, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
