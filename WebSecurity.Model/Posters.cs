@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace WebSecurity.Model
 {
-    //[Table("Post")]
+    [Table("Post")]
     public class Posters
     {
         public string PostTitle { get; set; }

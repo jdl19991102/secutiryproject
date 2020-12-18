@@ -1,8 +1,8 @@
-C:\Users\jdl19991102\Desktop\实训内容\微信小程序\SecurityProjectApi\WebSecurity.Model\bin\Release\netstandard2.1\WebSecurity.Model.deps.json
-C:\Users\jdl19991102\Desktop\实训内容\微信小程序\SecurityProjectApi\WebSecurity.Model\bin\Release\netstandard2.1\WebSecurity.Model.dll
-C:\Users\jdl19991102\Desktop\实训内容\微信小程序\SecurityProjectApi\WebSecurity.Model\bin\Release\netstandard2.1\WebSecurity.Model.pdb
-C:\Users\jdl19991102\Desktop\实训内容\微信小程序\SecurityProjectApi\WebSecurity.Model\obj\Release\netstandard2.1\WebSecurity.Model.AssemblyInfoInputs.cache
-C:\Users\jdl19991102\Desktop\实训内容\微信小程序\SecurityProjectApi\WebSecurity.Model\obj\Release\netstandard2.1\WebSecurity.Model.AssemblyInfo.cs
-C:\Users\jdl19991102\Desktop\实训内容\微信小程序\SecurityProjectApi\WebSecurity.Model\obj\Release\netstandard2.1\WebSecurity.Model.csproj.CoreCompileInputs.cache
-C:\Users\jdl19991102\Desktop\实训内容\微信小程序\SecurityProjectApi\WebSecurity.Model\obj\Release\netstandard2.1\WebSecurity.Model.dll
-C:\Users\jdl19991102\Desktop\实训内容\微信小程序\SecurityProjectApi\WebSecurity.Model\obj\Release\netstandard2.1\WebSecurity.Model.pdb
+C:\Users\jdl19991102\Desktop\小程序项目资料\WebSecurity\WebSecurity.Model\bin\Release\netstandard2.1\WebSecurity.Model.deps.json
+C:\Users\jdl19991102\Desktop\小程序项目资料\WebSecurity\WebSecurity.Model\bin\Release\netstandard2.1\WebSecurity.Model.dll
+C:\Users\jdl19991102\Desktop\小程序项目资料\WebSecurity\WebSecurity.Model\bin\Release\netstandard2.1\WebSecurity.Model.pdb
+C:\Users\jdl19991102\Desktop\小程序项目资料\WebSecurity\WebSecurity.Model\obj\Release\netstandard2.1\WebSecurity.Model.AssemblyInfoInputs.cache
+C:\Users\jdl19991102\Desktop\小程序项目资料\WebSecurity\WebSecurity.Model\obj\Release\netstandard2.1\WebSecurity.Model.AssemblyInfo.cs
+C:\Users\jdl19991102\Desktop\小程序项目资料\WebSecurity\WebSecurity.Model\obj\Release\netstandard2.1\WebSecurity.Model.csproj.CoreCompileInputs.cache
+C:\Users\jdl19991102\Desktop\小程序项目资料\WebSecurity\WebSecurity.Model\obj\Release\netstandard2.1\WebSecurity.Model.dll
+C:\Users\jdl19991102\Desktop\小程序项目资料\WebSecurity\WebSecurity.Model\obj\Release\netstandard2.1\WebSecurity.Model.pdb

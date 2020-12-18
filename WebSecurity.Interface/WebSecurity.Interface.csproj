@@ -5,10 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Dapper" Version="2.0.78" />
     <PackageReference Include="Dapper.Contrib" Version="2.0.78" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
-    <PackageReference Include="Z.Dapper.Plus" Version="3.0.27" />
+    <PackageReference Include="Overt.Core.Data" Version="2.0.0" />
+    <PackageReference Include="Z.Dapper.Plus" Version="3.0.26" />
   </ItemGroup>
 
 </Project>

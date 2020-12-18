@@ -30,6 +30,8 @@ namespace WebSecurity.Interface
         public T Get<T>(int Id) where T : class;
 
         public IEnumerable<T> GetAll<T>() where T:class;
+
+       
         #endregion
     }
 }

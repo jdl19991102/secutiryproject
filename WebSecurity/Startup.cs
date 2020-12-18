@@ -16,6 +16,8 @@ using WebSecurity.Service;
 
 using System.Reflection;
 using System.IO;
+using Microsoft.AspNetCore.Hosting.Server;
+using Microsoft.AspNetCore.Hosting.Server.Features;
 
 namespace WebSecurity
 {
@@ -34,7 +36,16 @@ namespace WebSecurity
             services.AddControllers();
             //×é²â·þÎñ
             services.AddTransient<IUserService, UserService>();
-            services.AddTransient<IMarket, Market>();
+            services.AddTransient<IArticleService, ArticleService>();
+            services.AddSingleton(serviceProvider =>
+            {
+                var server = serviceProvider.GetRequiredService<IServer>();
+                return server.Features.Get<IServerAddressesFeature>();
+            });
+
+
+
+
             services.AddResponseCaching();
             services.Configure<DBConnectionOption>(Configuration.GetSection("ConnectionStrings"));
             services.AddCors(ac => ac.AddPolicy("any", ap => ap.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader()));
@@ -64,7 +75,8 @@ namespace WebSecurity
             app.UseHttpsRedirection();
             
             app.UseRouting();
-app.UseAuthorization();
+            app.UseAuthorization();
+            app.UseStaticFiles();
 
             app.UseCors();
             app.UseEndpoints(endpoints =>

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "UN0MP9EF2oDqiklUyJTNx9IMxjr2AQ6fr4KETKGbfw/5ZGfBiFuijLc9Y/Spv3iLQuF0kOpI0XCLfN4T3SknKA==",
+  "success": true,
+  "projectFilePath": "H:\\WebSecurityCore\\WebSecurity\\WebSecurity\\ClassLibrary1\\ClassLibrary1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\xiaomai\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}

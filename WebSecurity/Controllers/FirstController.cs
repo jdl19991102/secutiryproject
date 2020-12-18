@@ -27,7 +27,8 @@ namespace WebSecurity.Controllers
         //private readonly ILogger<FirstController> _logger;
         private readonly IUserService _iUserService;
 
-        public FirstController(IUserService iUserService)
+        public FirstController(
+             IUserService iUserService)
         {
           
             _iUserService = iUserService;
@@ -41,16 +42,16 @@ namespace WebSecurity.Controllers
         /// <returns></returns>
         [HttpGet("{id}")]
         public Users Get(int id)
-        
-        
         {
             var user = _iUserService.Get<Users>(id);
             return user;
 
         }
 
+        
+
         [HttpPost]
-        public void Post(IFormFile fd)
+        public void Post(IFormFile File)
         {
 
         }

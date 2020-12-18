@@ -5,10 +5,11 @@ using Dapper;
 using System.Data.SqlClient;
 using System.Text;
 using WebSecurity.Interface;
+using Dapper.Contrib.Extensions;
+using Z.Dapper.Plus;
 using WebSecurity.Interface.Extend;
 using Microsoft.Extensions.Options;
-using Z.Dapper.Plus;
-using Dapper.Contrib.Extensions;
+
 
 namespace WebSecurity.Service
 {
@@ -90,7 +91,7 @@ namespace WebSecurity.Service
         public IEnumerable<T> GetAll<T>()where T:class {
             return _DbConnection.GetAll<T>();
         }
-
+        
 
 
         #endregion
@@ -101,11 +102,8 @@ namespace WebSecurity.Service
 
         public void Dispose()
         {
-           
+            //_DbConnection.Close();
         }
-
-
-
 
     }
 }
