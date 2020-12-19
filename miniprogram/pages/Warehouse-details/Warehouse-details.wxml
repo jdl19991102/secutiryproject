@@ -1,0 +1,10 @@
+<!--miniprogram/pages/Warehouse-details/Warehouse-details.wxml-->
+<view class="details-header">
+  <van-tabs active="{{ active }}" swipe-threshold="3" ellipsis="true">
+  <van-tab class="details-header-title" title="投资策略" >投资策略</van-tab>
+  <van-tab class="details-header-title" title="产品持仓">产品持仓</van-tab>
+  <van-tab class="details-header-title" title="投资机会">投资机会</van-tab>
+  <van-tab class="details-header-title" title="投资报告">投资报告</van-tab>
+  <van-tab class="details-header-title" title="产品使用手册">产品使用手册</van-tab>
+</van-tabs>
+</view>

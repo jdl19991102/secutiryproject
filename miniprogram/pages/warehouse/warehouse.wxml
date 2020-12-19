@@ -1,0 +1,153 @@
+<!--pages/warehouse/warehouse.wxml-->
+<view class="header">
+  <van-image class="head-portrait" round width="100" height="100" src="/images/img1.jpg" />
+  <text class="title">Hello World</text>
+</view>
+
+<!-- content1 -->
+<view class="content">
+  <view class="content-img">
+    <van-image class="content-img" width="50" height="50" src="/images/mine-icon1.png" />
+  </view>
+  <view class="content-txt">
+    <text class="t1">投资快线</text>
+    <text class="t2">剩余15天</text>
+    <text class="t3">2020-12-30到期</text>
+  </view>
+  <view class="content-btn">
+    <van-button class="btn-content" round type="default" color="#CE3431" custom-style="width:100px;height:24px; margin-bottom: 10px;">设为当前</van-button>
+    <navigator url="/pages/Warehouse-details/Warehouse-details"><van-button class="btn-content" round type="default" color="#CE3431" custom-style="width:100px;height:24px">查看</van-button></navigator>
+  </view>
+</view>
+<!-- content1 -->
+
+
+
+
+<view class="content">
+  <view class="content-img">
+    <van-image class="content-img" width="50" height="50" src="/images/mine-icon2.png" />
+  </view>
+  <view class="content-txt">
+    <text class="t1">投资快线</text>
+    <text class="t2">剩余15天</text>
+    <text class="t3">2020-12-30到期</text>
+  </view>
+  <view class="content-btn">
+    <van-button class="btn-content" round type="default" color="#CE3431" custom-style="width:100px;height:24px; margin-bottom: 10px;">设为当前</van-button>
+    <van-button class="btn-content" round type="default" color="#CE3431" custom-style="width:100px;height:24px">查看</van-button>
+  </view>
+</view>
+<view class="content">
+  <view class="content-img">
+    <van-image class="content-img" width="50" height="50" src="/images/mine-icon3.png" />
+  </view>
+  <view class="content-txt">
+    <text class="t1">投资快线</text>
+    <text class="t2">剩余15天</text>
+    <text class="t3">2020-12-30到期</text>
+  </view>
+  <view class="content-btn">
+    <van-button class="btn-content" round type="default" color="#CE3431" custom-style="width:100px;height:24px; margin-bottom: 10px;">设为当前</van-button>
+    <van-button class="btn-content" round type="default" color="#CE3431" custom-style="width:100px;height:24px">查看</van-button>
+  </view>
+</view>
+<view class="content">
+  <view class="content-img">
+    <van-image class="content-img" width="50" height="50" src="/images/mine-icon4.png" />
+  </view>
+  <view class="content-txt">
+    <text class="t1">投资快线</text>
+    <text class="t2">剩余15天</text>
+    <text class="t3">2020-12-30到期</text>
+  </view>
+  <view class="content-btn">
+    <van-button class="btn-content" round type="default" color="#CE3431" custom-style="width:100px;height:24px; margin-bottom: 10px;">设为当前</van-button>
+    <van-button class="btn-content" round type="default" color="#CE3431" custom-style="width:100px;height:24px">查看</van-button>
+  </view>
+</view>
+<view class="content">
+  <view class="content-img">
+    <van-image class="content-img" width="50" height="50" src="/images/mine-icon5.png" />
+  </view>
+  <view class="content-txt">
+    <text class="t1">投资快线</text>
+    <text class="t2">剩余15天</text>
+    <text class="t3">2020-12-30到期</text>
+  </view>
+  <view class="content-btn">
+    <van-button class="btn-content" round type="default" color="#CE3431" custom-style="width:100px;height:24px; margin-bottom: 10px;">设为当前</van-button>
+    <van-button class="btn-content" round type="default" color="#CE3431" custom-style="width:100px;height:24px">查看</van-button>
+  </view>
+</view>
+<view class="content">
+  <view class="content-img">
+    <van-image class="content-img" width="50" height="50" src="/images/mine-icon6.png" />
+  </view>
+  <view class="content-txt">
+    <text class="t1">投资快线</text>
+    <text class="t2">剩余15天</text>
+    <text class="t3">2020-12-30到期</text>
+  </view>
+  <view class="content-btn">
+    <van-button class="btn-content" round type="default" color="#CE3431" custom-style="width:100px;height:24px; margin-bottom: 10px;">设为当前</van-button>
+    <van-button class="btn-content" round type="default" color="#CE3431" custom-style="width:100px;height:24px">查看</van-button>
+  </view>
+</view>
+<view class="content">
+  <view class="content-img">
+    <van-image class="content-img" width="50" height="50" src="/images/mine-icon7.png" />
+  </view>
+  <view class="content-txt">
+    <text class="t1">投资快线</text>
+    <text class="t2">剩余15天</text>
+    <text class="t3">2020-12-30到期</text>
+  </view>
+  <view class="content-btn">
+    <van-button class="btn-content" round type="default" color="#CE3431" custom-style="width:100px;height:24px; margin-bottom: 10px;">设为当前</van-button>
+    <van-button class="btn-content" round type="default" color="#CE3431" custom-style="width:100px;height:24px">查看</van-button>
+  </view>
+</view>
+<view class="content">
+  <view class="content-img">
+    <van-image class="content-img" width="50" height="50" src="/images/mine-icon8.png" />
+  </view>
+  <view class="content-txt">
+    <text class="t1">投资快线</text>
+    <text class="t2">剩余15天</text>
+    <text class="t3">2020-12-30到期</text>
+  </view>
+  <view class="content-btn">
+    <van-button class="btn-content" round type="default" color="#CE3431" custom-style="width:100px;height:24px; margin-bottom: 10px;">设为当前</van-button>
+    <van-button class="btn-content" round type="default" color="#CE3431" custom-style="width:100px;height:24px">查看</van-button>
+  </view>
+</view>
+<view class="content">
+  <view class="content-img">
+    <van-image class="content-img" width="50" height="50" src="/images/mine-icon9.png" />
+  </view>
+  <view class="content-txt">
+    <text class="t1">投资快线</text>
+    <text class="t2">剩余15天</text>
+    <text class="t3">2020-12-30到期</text>
+  </view>
+  <view class="content-btn">
+    <van-button class="btn-content" round type="default" color="#CE3431" custom-style="width:100px;height:24px; margin-bottom: 10px;">设为当前</van-button>
+    <van-button class="btn-content" round type="default" color="#CE3431" custom-style="width:100px;height:24px">查看</van-button>
+  </view>
+</view>
+<view class="content">
+  <view class="content-img">
+    <van-image class="content-img" width="50" height="50" src="/images/mine-icon10.png" />
+  </view>
+  <view class="content-txt">
+    <text class="t1">投资快线</text>
+    <text class="t2">剩余15天</text>
+    <text class="t3">2020-12-30到期</text>
+  </view>
+  <view class="content-btn">
+    <van-button class="btn-content" round type="default" color="#CE3431" custom-style="width:100px;height:24px; margin-bottom: 10px;">设为当前</van-button>
+    <van-button class="btn-content" round type="default" color="#CE3431" custom-style="width:100px;height:24px">查看</van-button>
+  </view>
+</view>
+

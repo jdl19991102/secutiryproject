@@ -28,3 +28,4 @@
   height: 3rem;
   align-items: center;
 }
+.head-portrait{margin-top: 20px;display: flex;align-items: center;justify-content: center;margin-bottom: 50px;}

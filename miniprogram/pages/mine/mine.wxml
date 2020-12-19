@@ -1,3 +1,19 @@
 <!--miniprogram/pages/mine/mine.wxml-->
-<text>miniprogram/pages/mine/mine.wxml</text>
-<view><van-image width="100" height="100" src="/images/list.png" /></view>
+<van-image class="head-portrait" round width="100" height="100" src="/images/img1.jpg" />
+<!-- 持仓情况 -->
+<navigator url="/pages/warehouse/warehouse"></navigator>
+<van-cell
+  is-link
+  title="我的持仓1"
+  link-type="navigateTo"
+  url="/pages/warehouse/warehouse"
+/>
+<van-cell
+  is-link
+  title="我的持仓2"
+  link-type="navigateTo"
+  url="/pages/warehouse/warehouse"
+/>
+
+
+
